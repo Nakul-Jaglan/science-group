@@ -5,12 +5,12 @@ function Footer() {
     <>
         <section className="flex justify-around  gap-30 pl-10 pr-20 bg-[#22ace3] py-5">
           <section className="flex items-center">
-            <a href="/">
+            <Link href="/">
                 <img src="/logo.png" alt="Logo" className="h-40"/>
-            </a>
-            <a href="/">
+            </Link>
+            <Link href="/">
                 <h1 className="text-4xl font-semibold text-white">Science Group</h1>
-            </a>
+            </Link>
           </section>
 
           <section className="navbar">
