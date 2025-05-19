@@ -5,25 +5,32 @@ import Breadcrumbs from "@/app/components/breadcrumbs"
 function Page() {
     const specs = [
         {
-            model: "SGI20-24S05M",
+            model: "SGI10-24S12M",
             inputVoltage: "18 - 36V",
-            outputVoltage: "5V",
-            outputPower: "0 ~ 100W",
-            efficiency: "90%"
+            outputVoltage: "12V",
+            outputPower: "0 ~ 120W",
+            efficiency: "92%"
         },
         {
-            model: "SGI20-48S05M",
+            model: "SGI10-48S12M",
             inputVoltage: "36 - 75V",
-            outputVoltage: "5V",
-            outputPower: "0 ~ 100W",
-            efficiency: "90%"
+            outputVoltage: "12V",
+            outputPower: "0 ~ 96W",
+            efficiency: "93%"
         },
         {
-            model: "SGI20-48S05L",
+            model: "SGI10-72S12M",
+            inputVoltage: "36 - 90V",
+            outputVoltage: "12V",
+            outputPower: "0 ~ 96W",
+            efficiency: "93%"
+        },
+        {
+            model: "SGI10-48S12L",
             inputVoltage: "36 - 75V",
-            outputVoltage: "5V",
-            outputPower: "0 ~ 100W",
-            efficiency: "90%"
+            outputVoltage: "12V",
+            outputPower: "0 ~ 120W",
+            efficiency: "92%"
         }
     ];
   return (
@@ -40,7 +47,7 @@ function Page() {
             <Breadcrumbs />
     
             <section>
-                <h1 className="text-7xl text-center mt-5 text-[#2061b7]">35-100V to 5V Series</h1>
+                <h1 className="text-7xl text-center mt-5 text-[#2061b7]">35-100V to 12V Series</h1>
 
                 <section className="grid grid-cols-2 gap-0 py-5 px-5 justify-items-center my-5">
                     <section>
@@ -48,12 +55,12 @@ function Page() {
                     </section>
 
                     <section className="p-4">
-                        <h1 className="text-3xl font-semibold text-center">35-100V to 5V Isolated DC-DC Power Converters</h1>
+                        <h1 className="text-3xl font-semibold text-center">35-100V to 12V Isolated DC-DC Power Converters</h1>
                         <p className="text-gray-700 font-bold">Features:</p>
                         <br/>
                         <ul className="list-disc list-inside">
                             <li>Design meeting ROHS / CE</li>
-                            <li>High efficiency:91%</li>
+                            <li>High efficiency:92%</li>
                             <li>lsolated between input and output</li>
                             <li>lnternal capacitor:NCC & NICHICON (high reliability)</li>
                             <li>100% full load burn-in test</li>
@@ -66,7 +73,7 @@ function Page() {
                 </section>
 
                 <section className="table mx-auto my-5">
-                    <h1 className="text-3xl font-semibold text-center">35-100V to 5V Series Specifications</h1>
+                    <h1 className="text-3xl font-semibold text-center">35-100V to 12V Series Specifications</h1>
                     <table className="w-full text-center border-collapse mt-5">
                         <thead className="bg-[#2061b7] text-white">
                             <tr>

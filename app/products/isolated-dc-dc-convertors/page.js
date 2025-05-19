@@ -15,13 +15,13 @@ function Page() {
       name: "35-100V to 12V Series",
       description: "This series is a complete line of highly efficient isolated DC-DC converters suitable for applications requiring galvanic isolation between the input and the output. The isolated DC-DC converter provides a highly regulated output DC voltage of 12 Volts for an input DC voltage range of 35-100 Volts. Features include short circuit, overheating , waterproof and overvoltage protection.",
       image: "/Products/isolated-dc-dc/2.jpg",
-      link: "/products/isolated-dc-dc-convertors"
+      link: "/products/isolated-dc-dc-convertors/35-100v-to-12v"
     },
     {
       name: "35-100V to 24V Series",
       description: "This series is a complete line of highly efficient isolated DC-DC converters suitable for applications requiring galvanic isolation between the input and the output. The isolated DC-DC converter provides a highly regulated output DC voltage of 24 Volts for an input DC voltage range of 35-100 Volts. Features include short circuit, overheating , waterproof and overvoltage protection.",
       image: "/Products/isolated-dc-dc/3.jpg",
-      link: "/products/isolated-dc-dc-convertors"
+      link: "/products/isolated-dc-dc-convertors/35-100v-to-24v"
     }
   ]
   return (
