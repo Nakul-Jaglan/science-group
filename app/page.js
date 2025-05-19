@@ -32,7 +32,7 @@ export default function Home() {
           <section className="grid grid-cols-3 gap-3 p-10 justify-items-center">
             {products.map((product, index) => (
               <section key={index}>
-                <Link href={product.link} target="_blank"><img src={product.image} alt={`Product ${index + 1}`}/></Link>
+                <Link href={product.link}><img src={product.image} alt={`Product ${index + 1}`}/></Link>
               </section>
             ))}
           </section>
