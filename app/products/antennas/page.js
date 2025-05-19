@@ -84,7 +84,7 @@ function Page() {
                   <h1 className="text-3xl font-semibold text-center">{product.name}</h1>
                   <p className="text-gray-700 flex-1">{product.description}</p>
                   <section className="mt-4">
-                    <Link href={product.link} target="_blank">
+                    <Link href={product.link}>
                       <button className="text-xl font-medium text-center bg-[#000] text-white px-5 py-3 rounded-xl cursor-pointer w-full">
                         Explore This
                       </button>

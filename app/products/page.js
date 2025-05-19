@@ -65,7 +65,7 @@ function Page() {
                 <h1 className="text-3xl font-semibold pb-2">{product.name}</h1>
                 <p className="text-xl font-medium">{product.description}</p>
               </section>
-              <Link href={product.link} target="_blank"><button className="text-xl font-medium text-center bg-black text-white px-5 py-3 rounded-xl cursor-pointer mt-4 w-full self-end">View More</button></Link>
+              <Link href={product.link}><button className="text-xl font-medium text-center bg-black text-white px-5 py-3 rounded-xl cursor-pointer mt-4 w-full self-end">View More</button></Link>
             </section>
           ))}
         </section>

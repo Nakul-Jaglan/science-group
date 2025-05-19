@@ -108,7 +108,7 @@ function Page() {
                 <img src={product.image} alt={product.name} className="w-full"/>
                 <div className="p-4">
                   <h1 className="text-3xl font-semibold text-center">{product.name}</h1>
-                  <Link href={product.link} target="_blank"><button className="text-xl font-medium text-center bg-[#000] text-white px-5 py-3 rounded-xl cursor-pointer mt-4 w-full self-end">Explore This</button></Link>
+                  <Link href={product.link}><button className="text-xl font-medium text-center bg-[#000] text-white px-5 py-3 rounded-xl cursor-pointer mt-4 w-full self-end">Explore This</button></Link>
                 </div>
               </div>
             ))}
